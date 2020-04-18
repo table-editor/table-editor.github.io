@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Table Editor</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <style>
+            div.new{
+                width: 220px;
+                height:300px;
+                /*background:url('new.png') no-repeat;
+                background-size:100%;*/
+                border:0px solid grey;
+                position: absolute;
+                top: 30%;
+                left: 20%;
+                transition:0.4s;
+
+            }
+            div.open{
+                width: 220px;
+                height:300px;
+                /*background:url('open.png') no-repeat;
+                background-size:100%;*/
+                border:0px solid grey;
+                position: absolute;
+                top: 30%;
+                left: 60%;
+                transition:0.4s;
+
+            }
+            .new:hover,.open:hover {
+                box-shadow: 2px 2px 2px 2px grey, 4px 4px  grey;
+                transition:0.4s;
+            }
+            html{
+                padding:10px;
+            }
+            H1{
+                position: absolute;
+                top: 10%;
+                left: 41%;
+            }
+            a,a:hover,a:active{
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <H1>Table Editor</H1>
+        <a href="new.html" ><div class="new"><img src="new.png" style="width: 210px; height:220px;"><center><h4>Создать новую таблицу</h4></center></div></a>
+        <a href="open.html" ><div class="open"><img src="open.png" style="width: 210px; height:220px;"><center><h4>Открыть таблицу</h4></center></div></a>
+    </body>
+</html>
